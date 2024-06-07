@@ -1,0 +1,16 @@
+{
+    "name": "homework6",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "cy:run:chrome": "yarn cypress run --browser chrome --headless",
+        "cy:run:firefox": "yarn cypress run --browser firefox --headless"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "cypress": "^13.10.0"
+    }
+}
